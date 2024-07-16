@@ -32,7 +32,7 @@ function renderSheet1(data) {
 
 // Function to fetch data from Google Sheets and render table
 function loadSheet1() {
-    fetch(https://docs.google.com/spreadsheets/d/e/2PACX-1vRCt7FMsma9X6rolHmamjnQOQrYTFO1oTAPBEefpvoZqDBIuQ5tUjUIpXwAo2_RIQ/pubhtml)
+    fetch(https://docs.google.com/spreadsheets/d/e/2PACX-1vR0sAgimg-p5v6wA7J7nHY6vy3b6-Af8qCNSc-tXJxmGjaUq9CVKfpymkns5Rlsejk4zIF3F5QZk7W3/pubhtml)
         .then(response => response.text())
         .then(data => renderSheet1(data));
 }
